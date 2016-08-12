@@ -64,20 +64,38 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="..\NCronTabCore\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabException.cs">
+      <Link>CrontabException.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabField.cs">
+      <Link>CrontabField.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabFieldImpl.cs">
+      <Link>CrontabFieldImpl.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabFieldKind.cs">
+      <Link>CrontabFieldKind.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabSchedule.cs">
+      <Link>CrontabSchedule.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\ErrorHandling.cs">
+      <Link>ErrorHandling.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\ICrontabField.cs">
+      <Link>ICrontabField.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\StringSeparatorStock.cs">
+      <Link>StringSeparatorStock.cs</Link>
+    </Compile>
     <Compile Include="AssemblyInfo.g.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AssemblyInfo.g.tt</DependentUpon>
     </Compile>
-    <Compile Include="CrontabException.cs" />
-    <Compile Include="CrontabField.cs" />
-    <Compile Include="CrontabFieldImpl.cs" />
-    <Compile Include="CrontabFieldKind.cs" />
-    <Compile Include="CrontabSchedule.cs" />
-    <Compile Include="ErrorHandling.cs" />
-    <Compile Include="ICrontabField.cs" />
-    <Compile Include="StringSeparatorStock.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AssemblyInfo.g.tt">

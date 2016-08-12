@@ -128,36 +128,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\NCronTabCore\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabException.cs">
+      <Link>CrontabException.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabField.cs">
+      <Link>CrontabField.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabFieldImpl.cs">
+      <Link>CrontabFieldImpl.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabFieldKind.cs">
+      <Link>CrontabFieldKind.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\CrontabSchedule.cs">
+      <Link>CrontabSchedule.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\ErrorHandling.cs">
+      <Link>ErrorHandling.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\ICrontabField.cs">
+      <Link>ICrontabField.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\Serialization.cs">
+      <Link>Serialization.cs</Link>
+    </Compile>
+    <Compile Include="..\NCronTabCore\StringSeparatorStock.cs">
+      <Link>StringSeparatorStock.cs</Link>
+    </Compile>
     <Compile Include="..\SolutionInfo.cs">
       <Link>SolutionInfo.cs</Link>
-    </Compile>
-    <Compile Include="AssemblyInfo.cs">
-      <SubType>Code</SubType>
     </Compile>
     <Compile Include="AssemblyInfo.g.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AssemblyInfo.g.tt</DependentUpon>
     </Compile>
-    <Compile Include="CrontabException.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CrontabField.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CrontabFieldImpl.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CrontabFieldKind.cs" />
-    <Compile Include="CrontabSchedule.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ErrorHandling.cs" />
-    <Compile Include="ICrontabField.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Serialization.cs" />
-    <Compile Include="StringSeparatorStock.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

@@ -17,6 +17,8 @@
 //
 #endregion
 
+#if !NETCORE
+
 namespace NCrontab
 {
     using System;
@@ -45,3 +47,4 @@ namespace NCrontab
         object IObjectReference.GetRealObject(StreamingContext context) => FromKind(Kind);
     }
 }
+#endif

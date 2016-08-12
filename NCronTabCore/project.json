@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "authors": [ "Atif Aziz" ],
+  "copyright": "Copyright (c) 2008, Atif Aziz. All rights reserved.",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.3": {
+      "imports": "dnxcore50",
+      "buildOptions": { "define": [ "NETCORE" ] }
+    }
+  }
+}
