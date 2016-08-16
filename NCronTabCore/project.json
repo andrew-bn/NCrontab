@@ -3,15 +3,25 @@
 
   "authors": [ "Atif Aziz" ],
   "copyright": "Copyright (c) 2008, Atif Aziz. All rights reserved.",
-
-  "dependencies": {
-    "NETStandard.Library": "1.6.0"
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/andrew-bn/NCrontab.git"
+    }
   },
 
+
   "frameworks": {
+    "net35": {},
+    "net40": {},
+    "net45": {},
+    "net451": {},
     "netstandard1.3": {
       "imports": "dnxcore50",
-      "buildOptions": { "define": [ "NETCORE" ] }
+      "buildOptions": { "define": [ "NETCORE" ] },
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
     }
   }
 }
